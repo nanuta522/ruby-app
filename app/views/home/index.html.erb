@@ -1,3 +1,17 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
-<%= link_to 'Articles', articles_new_path %>
+<figure class='mb-3'>
+    <img src="https://bloggingfordevs.com/images/trends-images/ruby-blogs.png" class="img-fluid" alt="ruby blog hero banner">
+</figure>
+
+<div class='container mb-5' style='padding:5rem 0;'>
+    <div class='row align-items-center'>
+        <div class='col-md-9 align-self-center'>
+            <h1>My first Ruby Page</h1>
+        
+            <p>Hope you enjoy it!</p>
+        </div>
+        
+        <div class='col-md-3 align-self-center'>
+            <%= link_to 'See all posts', posts_path, class:"btn btn-outline-danger" %>
+        </div>    
+    </div>
+</div>

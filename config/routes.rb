@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
+  resources :posts
   root 'home#index'
-  get 'articles/new', to: 'articles#new'
-  post 'articles', to: 'articles#create'
 end

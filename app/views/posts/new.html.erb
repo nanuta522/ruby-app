@@ -1,0 +1,21 @@
+<div class='container mt-5'>
+  <div class='row align-items-center'>
+    <div class='col-md-2'>
+    </div>
+    <div class='col-md-3'>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh-jZb7uDHi8qcTTxYC1ydQ6AizWeEqxec-w&usqp=CAU" class="img-fluid" alt="ruby blog hero banner">
+    </div>
+
+    <div class='col-md-4'>
+      <h1>New post</h1>
+
+      <%= render "form", post: @post %>
+
+      <br>
+
+      <div>
+        <%= link_to "Back to posts", posts_path, class:"btn btn-outline-danger" %>
+      </div>
+    </div>
+  </div>
+</div>
